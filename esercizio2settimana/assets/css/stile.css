@@ -1,0 +1,182 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 65%;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+    color: #000;
+
+
+}
+
+/* HEADER */
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    gap: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px 3px #d3d3d3;
+
+}
+
+
+
+#logo {
+    width: 25%;
+    text-align: center;
+}
+
+#menu {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 15px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+#registrati>a {
+    background: #6cc1e2;
+    background: linear-gradient(to left, #392f7a, #6cc1e2);
+    color: white;
+    padding: 10px;
+
+}
+
+/* MAIN */
+
+
+section {
+
+    color: white;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+
+    font-size: 4rem;
+    line-height: 1.5em;
+
+}
+
+section p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+section a {
+
+    background: #6cc1e2;
+    background: linear-gradient(to left, #392f7a, #6cc1e2);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+article {
+    text-align: center;
+}
+
+article h2 {
+    line-height: 2em;
+    font-size: 3.5rem;
+}
+
+article p {
+    font-size: 0.8em;
+}
+
+
+
+#lavoro {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#lavoro h3 {
+    font-size: 1.5em;
+}
+
+#scrivici {
+    padding-top: 150px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(23, 23, 76);
+    color: white;
+}
+
+#scrivici a {
+    background: #6cc1e2;
+    background: linear-gradient(to left, #392f7a, #6cc1e2);
+    color: white;
+    padding: 10px;
+}
+
+aside {
+    display: grid;
+}
+
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+#sub {
+    font-size: 0.8em;
+    padding: 10px;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+small {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#newsletter a {
+    background: #6cc1e2;
+    background: linear-gradient(to left, #392f7a, #6cc1e2);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* RESPONSIVE */
